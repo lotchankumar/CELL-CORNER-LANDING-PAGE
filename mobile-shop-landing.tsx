@@ -35,7 +35,7 @@ function PromotionalCarousel() {
       description: "iPhone, Samsung, OnePlus & More",
       buttonText: "Shop Now",
       bgColor: "bg-gradient-to-r from-red-500 to-pink-500",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/megasale.webp",
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ function PromotionalCarousel() {
       description: "Trade your old phone for the latest model",
       buttonText: "Exchange Now",
       bgColor: "bg-gradient-to-r from-blue-500 to-purple-500",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/exchange.jpg",
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ function PromotionalCarousel() {
       description: "No Cost EMI Available",
       buttonText: "Get Offer",
       bgColor: "bg-gradient-to-r from-green-500 to-teal-500",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/hdfcoff.jpg",
     },
     {
       id: 4,
@@ -62,7 +62,7 @@ function PromotionalCarousel() {
       description: "Starting from ₹99 only",
       buttonText: "Browse All",
       bgColor: "bg-gradient-to-r from-orange-500 to-yellow-500",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/accesories.jpg",
     },
   ]
 
@@ -103,7 +103,7 @@ function PromotionalCarousel() {
                 </div>
                 <div className="flex justify-center">
                   <Image
-                    src={offer.image || "/placeholder.svg"}
+                    src={offer.image || "/accesories.jpg"}
                     alt={offer.title}
                     width={300}
                     height={200}
@@ -157,7 +157,7 @@ export default function Component() {
           <div className="flex items-center space-x-4">
             <Link href="/" className="flex items-center space-x-2">
               <Smartphone className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">MobileHub</span>
+              <span className="font-bold text-xl">Cell Corner</span>
             </Link>
           </div>
 
@@ -218,7 +218,7 @@ export default function Component() {
                     </span>
                   </h1>
                   <p className="text-sm md:text-xl text-gray-600 leading-relaxed">
-                    Since 2015, MobileHub has been serving customers with the latest smartphones, accessories, and
+                    Since 2015, Cell Corner has been serving customers with the latest smartphones, accessories, and
                     expert repair services.
                   </p>
                 </div>
@@ -262,9 +262,9 @@ export default function Component() {
                     <div>
                       <h3 className="text-sm md:text-base font-semibold text-gray-900">Address</h3>
                       <p className="text-xs md:text-sm text-gray-600">
-                        123 Tech Street, Electronics Plaza
+                        123 Tech Street, Karumathampatti
                         <br />
-                        Downtown District, Mumbai - 400001
+                        Coimbatore District, Tamilnadu - 641659
                       </p>
                     </div>
                   </div>
@@ -290,7 +290,7 @@ export default function Component() {
                       <p className="text-xs md:text-sm text-gray-600">
                         +91 98765 43210
                         <br />
-                        info@mobilehub.com
+                        info@cellcorner.com
                       </p>
                     </div>
                   </div>
@@ -325,7 +325,7 @@ export default function Component() {
               {/* Store Image - Hidden on small mobile, smaller on tablet */}
               <div className="relative hidden sm:block">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/shopimage.jpg"
                   alt="MobileHub Store Front"
                   width={500}
                   height={300}
