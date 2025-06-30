@@ -53,7 +53,7 @@ function PromotionalCarousel() {
       description: "No Cost EMI Available",
       buttonText: "Get Offer",
       bgColor: "bg-gradient-to-r from-green-500 to-teal-500",
-      image: "/hdfcoff.jpg",
+      image: "/emioff.jpg",
     },
     {
       id: 4,
@@ -383,7 +383,7 @@ export default function Component() {
                 <Truck className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-semibold">Free Shipping</h3>
-              <p className="text-gray-600">Free delivery on orders over $99. Fast and secure shipping worldwide.</p>
+              <p className="text-gray-600">Free delivery on orders over ₹8000. Fast and secure shipping worldwide.</p>
             </div>
             <div className="flex flex-col items-center text-center space-y-4">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
@@ -417,30 +417,30 @@ export default function Component() {
             {[
               {
                 name: "iPhone 15 Pro",
-                price: "$999",
-                originalPrice: "$1099",
-                image: "/placeholder.svg?height=300&width=200",
+                price: "₹90,999",
+                originalPrice: "₹1,34,900",
+                image: "/15pro.jpg",
                 badge: "Best Seller",
               },
               {
                 name: "Samsung Galaxy S24",
-                price: "$849",
-                originalPrice: "$949",
-                image: "/placeholder.svg?height=300&width=200",
+                price: "₹49,999",
+                originalPrice: "₹74,999",
+                image: "/s24.png",
                 badge: "New",
               },
               {
                 name: "Google Pixel 8",
-                price: "$699",
-                originalPrice: "$799",
-                image: "/placeholder.svg?height=300&width=200",
+                price: "₹44,999",
+                originalPrice: "₹75,999",
+                image: "/pixel8.webp",
                 badge: "Sale",
               },
               {
                 name: "OnePlus 12",
-                price: "$799",
-                originalPrice: "$899",
-                image: "/placeholder.svg?height=300&width=200",
+                price: "₹58,733",
+                originalPrice: "₹69,999",
+                image: "/1plus12.jpg",
                 badge: "Popular",
               },
             ].map((product, index) => (
@@ -483,7 +483,7 @@ export default function Component() {
       <section className="py-16 bg-gray-50">
         <div className="container px-4">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose MobileHub?</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose Cell Corner?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We're committed to providing the best mobile shopping experience
             </p>
@@ -550,7 +550,7 @@ export default function Component() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Smartphone className="h-6 w-6 text-primary" />
-                <span className="font-bold text-xl">MobileHub</span>
+                <span className="font-bold text-xl">Cell Corner</span>
               </div>
               <p className="text-gray-400">Your trusted partner for the latest mobile technology and accessories.</p>
             </div>
@@ -635,7 +635,7 @@ export default function Component() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} MobileHub. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Cell Corner. All rights reserved.</p>
           </div>
         </div>
       </footer>
